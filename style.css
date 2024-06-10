@@ -1,0 +1,35 @@
+.bg-container{
+    height: 100vh;
+    background-color: cadetblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.counter-heading{
+    font-family: "DM Serif Text", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.counter-value{
+    font-weight: bolder;
+    font-size: 82px;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+.button:hover{
+    background-color: darkgray;
+    font-family: "DM Serif Text", serif;
+    font-weight: normal;
+    border-color: black;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 6px;
+}
